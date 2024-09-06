@@ -1,0 +1,33 @@
+09-03 14:44:00.703 [    main] INFO | org.springframework.boot.StartupInfoLogger.logStarting:51 Starting JiraRushApplication using Java 17.0.11 with PID 14248 (D:\Course\project-final\target\classes started by IVC in D:\Course\project-final)
+09-03 14:44:00.709 [    main] DEBUG| org.springframework.boot.StartupInfoLogger.logStarting:52 Running with Spring Boot v3.0.2, Spring v6.0.4
+09-03 14:44:00.711 [    main] INFO | org.springframework.boot.SpringApplication.logStartupProfileInfo:636 The following 1 profile is active: "prod"
+09-03 14:44:06.579 [    main] WARN | o.h.b.i.MetadataBuilderImpl$MetadataBuildingOptionsImpl.lambda$new$1:626 HHH90000021: Encountered deprecated setting [javax.persistence.sharedCache.mode], use [jakarta.persistence.sharedCache.mode] instead
+09-03 14:44:09.533 [    main] DEBUG| o.s.w.s.m.m.annotation.ExceptionHandlerExceptionResolver.initExceptionHandlerAdviceCache:292 ControllerAdvice beans: 3 @ExceptionHandler, 1 ResponseBodyAdvice
+09-03 14:44:09.847 [    main] DEBUG| o.s.scheduling.concurrent.ExecutorConfigurationSupport.initialize:181 Initializing ExecutorService 'mailExecutor'
+09-03 14:44:09.956 [    main] INFO | com.javarush.jira.ref.ReferenceService.initialize:56 init loading
+09-03 14:44:10.107 [    main] DEBUG| o.s.web.servlet.handler.SimpleUrlHandlerMapping.logMappings:187 Patterns [/view/**] in 'getUrlHandlerMapping'
+09-03 14:44:11.390 [    main] INFO | org.springframework.boot.StartupInfoLogger.logStarted:57 Started JiraRushApplication in 11.986 seconds (process running for 13.202)
+09-03 14:46:19.271 [    main] INFO | org.springframework.boot.StartupInfoLogger.logStarting:51 Starting JiraRushApplication using Java 17.0.11 with PID 1540 (D:\Course\project-final\target\classes started by IVC in D:\Course\project-final)
+09-03 14:46:19.276 [    main] DEBUG| org.springframework.boot.StartupInfoLogger.logStarting:52 Running with Spring Boot v3.0.2, Spring v6.0.4
+09-03 14:46:19.277 [    main] INFO | org.springframework.boot.SpringApplication.logStartupProfileInfo:636 The following 1 profile is active: "prod"
+09-03 14:46:24.506 [    main] WARN | o.h.b.i.MetadataBuilderImpl$MetadataBuildingOptionsImpl.lambda$new$1:626 HHH90000021: Encountered deprecated setting [javax.persistence.sharedCache.mode], use [jakarta.persistence.sharedCache.mode] instead
+09-03 14:46:27.749 [    main] DEBUG| o.s.w.s.m.m.annotation.ExceptionHandlerExceptionResolver.initExceptionHandlerAdviceCache:292 ControllerAdvice beans: 3 @ExceptionHandler, 1 ResponseBodyAdvice
+09-03 14:46:28.081 [    main] DEBUG| o.s.scheduling.concurrent.ExecutorConfigurationSupport.initialize:181 Initializing ExecutorService 'mailExecutor'
+09-03 14:46:28.190 [    main] INFO | com.javarush.jira.ref.ReferenceService.initialize:56 init loading
+09-03 14:46:28.337 [    main] DEBUG| o.s.web.servlet.handler.SimpleUrlHandlerMapping.logMappings:187 Patterns [/view/**] in 'getUrlHandlerMapping'
+09-03 14:46:29.449 [    main] WARN | o.springframework.context.support.AbstractApplicationContext.refresh:592 Exception encountered during context initialization - cancelling refresh attempt: org.springframework.context.ApplicationContextException: Failed to start bean 'webServerStartStop'
+09-03 14:46:29.452 [    main] DEBUG| o.s.scheduling.concurrent.ExecutorConfigurationSupport.shutdown:218 Shutting down ExecutorService 'mailExecutor'
+09-03 14:46:29.524 [    main] ERROR| o.s.boot.diagnostics.LoggingFailureAnalysisReporter.report:40 
+
+***************************
+APPLICATION FAILED TO START
+***************************
+
+Description:
+
+Web server failed to start. Port 8080 was already in use.
+
+Action:
+
+Identify and stop the process that's listening on port 8080 or configure this application to listen on another port.
+

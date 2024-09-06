@@ -1,0 +1,52 @@
+09-06 12:00:02.607 [    main] INFO | org.springframework.boot.StartupInfoLogger.logStarting:51 Starting JiraRushApplication using Java 17.0.11 with PID 2280 (D:\Course\project-final\target\classes started by IVC in D:\Course\project-final)
+09-06 12:00:02.611 [    main] DEBUG| org.springframework.boot.StartupInfoLogger.logStarting:52 Running with Spring Boot v3.0.2, Spring v6.0.4
+09-06 12:00:02.612 [    main] INFO | org.springframework.boot.SpringApplication.logStartupProfileInfo:636 The following 1 profile is active: "prod"
+09-06 12:00:06.557 [    main] WARN | o.h.b.i.MetadataBuilderImpl$MetadataBuildingOptionsImpl.lambda$new$1:626 HHH90000021: Encountered deprecated setting [javax.persistence.sharedCache.mode], use [jakarta.persistence.sharedCache.mode] instead
+09-06 12:00:10.161 [    main] DEBUG| o.s.w.s.m.m.annotation.ExceptionHandlerExceptionResolver.initExceptionHandlerAdviceCache:292 ControllerAdvice beans: 3 @ExceptionHandler, 1 ResponseBodyAdvice
+09-06 12:00:10.578 [    main] DEBUG| o.s.scheduling.concurrent.ExecutorConfigurationSupport.initialize:181 Initializing ExecutorService 'mailExecutor'
+09-06 12:00:10.715 [    main] INFO | com.javarush.jira.ref.ReferenceService.initialize:56 init loading
+09-06 12:00:10.884 [    main] DEBUG| o.s.web.servlet.handler.SimpleUrlHandlerMapping.logMappings:187 Patterns [/view/**] in 'getUrlHandlerMapping'
+09-06 12:00:12.025 [    main] INFO | org.springframework.boot.StartupInfoLogger.logStarted:57 Started JiraRushApplication in 10.272 seconds (process running for 11.252)
+09-06 12:00:26.262 [downHook] DEBUG| o.s.scheduling.concurrent.ExecutorConfigurationSupport.shutdown:218 Shutting down ExecutorService 'mailExecutor'
+09-06 12:00:30.204 [    main] INFO | org.springframework.boot.StartupInfoLogger.logStarting:51 Starting JiraRushApplication using Java 17.0.11 with PID 15684 (D:\Course\project-final\target\classes started by IVC in D:\Course\project-final)
+09-06 12:00:30.209 [    main] DEBUG| org.springframework.boot.StartupInfoLogger.logStarting:52 Running with Spring Boot v3.0.2, Spring v6.0.4
+09-06 12:00:30.210 [    main] INFO | org.springframework.boot.SpringApplication.logStartupProfileInfo:636 The following 1 profile is active: "prod"
+09-06 12:00:33.716 [    main] WARN | o.h.b.i.MetadataBuilderImpl$MetadataBuildingOptionsImpl.lambda$new$1:626 HHH90000021: Encountered deprecated setting [javax.persistence.sharedCache.mode], use [jakarta.persistence.sharedCache.mode] instead
+09-06 12:00:36.141 [    main] DEBUG| o.s.w.s.m.m.annotation.ExceptionHandlerExceptionResolver.initExceptionHandlerAdviceCache:292 ControllerAdvice beans: 3 @ExceptionHandler, 1 ResponseBodyAdvice
+09-06 12:00:36.407 [    main] DEBUG| o.s.scheduling.concurrent.ExecutorConfigurationSupport.initialize:181 Initializing ExecutorService 'mailExecutor'
+09-06 12:00:36.546 [    main] INFO | com.javarush.jira.ref.ReferenceService.initialize:56 init loading
+09-06 12:00:36.674 [    main] DEBUG| o.s.web.servlet.handler.SimpleUrlHandlerMapping.logMappings:187 Patterns [/view/**] in 'getUrlHandlerMapping'
+09-06 12:00:37.774 [    main] INFO | org.springframework.boot.StartupInfoLogger.logStarted:57 Started JiraRushApplication in 8.509 seconds (process running for 9.381)
+09-06 12:14:23.626 [downHook] DEBUG| o.s.scheduling.concurrent.ExecutorConfigurationSupport.shutdown:218 Shutting down ExecutorService 'mailExecutor'
+09-06 12:14:28.560 [    main] INFO | org.springframework.boot.StartupInfoLogger.logStarting:51 Starting JiraRushApplication using Java 17.0.11 with PID 3160 (D:\Course\project-final\target\classes started by IVC in D:\Course\project-final)
+09-06 12:14:28.564 [    main] DEBUG| org.springframework.boot.StartupInfoLogger.logStarting:52 Running with Spring Boot v3.0.2, Spring v6.0.4
+09-06 12:14:28.566 [    main] INFO | org.springframework.boot.SpringApplication.logStartupProfileInfo:636 The following 1 profile is active: "prod"
+09-06 12:14:32.504 [    main] WARN | o.h.b.i.MetadataBuilderImpl$MetadataBuildingOptionsImpl.lambda$new$1:626 HHH90000021: Encountered deprecated setting [javax.persistence.sharedCache.mode], use [jakarta.persistence.sharedCache.mode] instead
+09-06 12:14:35.580 [    main] DEBUG| o.s.w.s.m.m.annotation.ExceptionHandlerExceptionResolver.initExceptionHandlerAdviceCache:292 ControllerAdvice beans: 3 @ExceptionHandler, 1 ResponseBodyAdvice
+09-06 12:14:35.879 [    main] DEBUG| o.s.scheduling.concurrent.ExecutorConfigurationSupport.initialize:181 Initializing ExecutorService 'mailExecutor'
+09-06 12:14:35.976 [    main] INFO | com.javarush.jira.ref.ReferenceService.initialize:56 init loading
+09-06 12:14:36.155 [    main] DEBUG| o.s.web.servlet.handler.SimpleUrlHandlerMapping.logMappings:187 Patterns [/view/**] in 'getUrlHandlerMapping'
+09-06 12:14:37.081 [    main] INFO | org.springframework.boot.StartupInfoLogger.logStarted:57 Started JiraRushApplication in 9.486 seconds (process running for 10.697)
+09-06 12:16:38.733 [downHook] DEBUG| o.s.scheduling.concurrent.ExecutorConfigurationSupport.shutdown:218 Shutting down ExecutorService 'mailExecutor'
+09-06 12:16:43.993 [    main] INFO | org.springframework.boot.StartupInfoLogger.logStarting:51 Starting JiraRushApplication using Java 17.0.11 with PID 11856 (D:\Course\project-final\target\classes started by IVC in D:\Course\project-final)
+09-06 12:16:43.997 [    main] DEBUG| org.springframework.boot.StartupInfoLogger.logStarting:52 Running with Spring Boot v3.0.2, Spring v6.0.4
+09-06 12:16:43.998 [    main] INFO | org.springframework.boot.SpringApplication.logStartupProfileInfo:636 The following 1 profile is active: "prod"
+09-06 12:16:47.855 [    main] WARN | o.h.b.i.MetadataBuilderImpl$MetadataBuildingOptionsImpl.lambda$new$1:626 HHH90000021: Encountered deprecated setting [javax.persistence.sharedCache.mode], use [jakarta.persistence.sharedCache.mode] instead
+09-06 12:16:50.463 [    main] DEBUG| o.s.w.s.m.m.annotation.ExceptionHandlerExceptionResolver.initExceptionHandlerAdviceCache:292 ControllerAdvice beans: 3 @ExceptionHandler, 1 ResponseBodyAdvice
+09-06 12:16:50.805 [    main] DEBUG| o.s.scheduling.concurrent.ExecutorConfigurationSupport.initialize:181 Initializing ExecutorService 'mailExecutor'
+09-06 12:16:50.903 [    main] INFO | com.javarush.jira.ref.ReferenceService.initialize:56 init loading
+09-06 12:16:51.031 [    main] DEBUG| o.s.web.servlet.handler.SimpleUrlHandlerMapping.logMappings:187 Patterns [/view/**] in 'getUrlHandlerMapping'
+09-06 12:16:51.982 [    main] INFO | org.springframework.boot.StartupInfoLogger.logStarted:57 Started JiraRushApplication in 8.89 seconds (process running for 9.994)
+09-06 12:17:14.393 [downHook] DEBUG| o.s.scheduling.concurrent.ExecutorConfigurationSupport.shutdown:218 Shutting down ExecutorService 'mailExecutor'
+09-06 12:17:19.175 [    main] INFO | org.springframework.boot.StartupInfoLogger.logStarting:51 Starting JiraRushApplication using Java 17.0.11 with PID 10816 (D:\Course\project-final\target\classes started by IVC in D:\Course\project-final)
+09-06 12:17:19.179 [    main] DEBUG| org.springframework.boot.StartupInfoLogger.logStarting:52 Running with Spring Boot v3.0.2, Spring v6.0.4
+09-06 12:17:19.180 [    main] INFO | org.springframework.boot.SpringApplication.logStartupProfileInfo:636 The following 1 profile is active: "prod"
+09-06 12:17:24.087 [    main] WARN | o.h.b.i.MetadataBuilderImpl$MetadataBuildingOptionsImpl.lambda$new$1:626 HHH90000021: Encountered deprecated setting [javax.persistence.sharedCache.mode], use [jakarta.persistence.sharedCache.mode] instead
+09-06 12:17:26.542 [    main] DEBUG| o.s.w.s.m.m.annotation.ExceptionHandlerExceptionResolver.initExceptionHandlerAdviceCache:292 ControllerAdvice beans: 3 @ExceptionHandler, 1 ResponseBodyAdvice
+09-06 12:17:26.809 [    main] DEBUG| o.s.scheduling.concurrent.ExecutorConfigurationSupport.initialize:181 Initializing ExecutorService 'mailExecutor'
+09-06 12:17:26.897 [    main] INFO | com.javarush.jira.ref.ReferenceService.initialize:56 init loading
+09-06 12:17:27.039 [    main] DEBUG| o.s.web.servlet.handler.SimpleUrlHandlerMapping.logMappings:187 Patterns [/view/**] in 'getUrlHandlerMapping'
+09-06 12:17:28.161 [    main] INFO | org.springframework.boot.StartupInfoLogger.logStarted:57 Started JiraRushApplication in 9.862 seconds (process running for 10.856)
+09-06 12:58:23.715 [0-exec-3] DEBUG| o.springframework.web.servlet.handler.AbstractHandlerMapping.getHandler:527 Mapped to org.springframework.web.servlet.mvc.UrlFilenameViewController@42087f91
+09-06 12:58:23.723 [0-exec-3] DEBUG| o.springframework.web.servlet.handler.AbstractHandlerMapping.getHandler:527 Mapped to org.springframework.web.servlet.mvc.UrlFilenameViewController@42087f91
+09-06 13:54:19.080 [downHook] DEBUG| o.s.scheduling.concurrent.ExecutorConfigurationSupport.shutdown:218 Shutting down ExecutorService 'mailExecutor'

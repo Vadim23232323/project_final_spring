@@ -1,0 +1,12 @@
+spring:
+  init:
+    mode: never
+  config:
+    activate:
+      on-profile: prod
+  datasource:
+    url: jdbc:postgresql://localhost:5432/jira
+    username: jira
+    password: JiraRush
+  liquibase:
+    changeLog: "classpath:db/changelog.sql"
