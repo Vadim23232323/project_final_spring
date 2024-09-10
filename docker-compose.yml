@@ -13,9 +13,9 @@ services:
       - db
       - nginx
     environment:
-      SPRING_DATASOURCE_URL: jdbc:postgresql://db:5432/postgres
-      SPRING_DATASOURCE_USERNAME: postgres
-      SPRING_DATASOURCE_PASSWORD: postgres
+      SPRING_DATASOURCE_URL: jdbc:postgresql://db:5432/jira
+      SPRING_DATASOURCE_USERNAME: jira
+      SPRING_DATASOURCE_PASSWORD: JiraRush
       SPRING_JPA_DATABASE_PLATFORM: org.hibernate.dialect.PostgreSQLDialect
       SPRING_PROFILES_ACTIVE: prod
 
@@ -25,9 +25,9 @@ services:
     ports:
       - "5432:5432"
     environment:
-      POSTGRES_USER: postgres
-      POSTGRES_PASSWORD: postgres
-      POSTGRES_DB: postgres
+      POSTGRES_USER: jira
+      POSTGRES_PASSWORD: JiraRush
+      POSTGRES_DB: jira
 
   nginx:
     container_name: nginx
