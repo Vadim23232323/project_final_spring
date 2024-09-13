@@ -1,0 +1,36 @@
+{
+  "groups": [
+    {
+      "name": "app",
+      "type": "com.javarush.jira.common.internal.config.AppProperties",
+      "sourceType": "com.javarush.jira.common.internal.config.AppProperties"
+    },
+    {
+      "name": "app.mail-sending-props",
+      "type": "com.javarush.jira.common.internal.config.AppProperties$MailSendingProps",
+      "sourceType": "com.javarush.jira.common.internal.config.AppProperties",
+      "sourceMethod": "getMailSendingProps()"
+    }
+  ],
+  "properties": [
+    {
+      "name": "app.host-url",
+      "type": "java.lang.String",
+      "description": "Host url",
+      "sourceType": "com.javarush.jira.common.internal.config.AppProperties"
+    },
+    {
+      "name": "app.templates-update-cache",
+      "type": "java.time.Duration",
+      "description": "Interval for update templates",
+      "sourceType": "com.javarush.jira.common.internal.config.AppProperties"
+    },
+    {
+      "name": "app.test-mail",
+      "type": "java.lang.String",
+      "description": "Test email",
+      "sourceType": "com.javarush.jira.common.internal.config.AppProperties"
+    }
+  ],
+  "hints": []
+}
