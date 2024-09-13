@@ -28,6 +28,8 @@ services:
       POSTGRES_USER: jira
       POSTGRES_PASSWORD: JiraRush
       POSTGRES_DB: jira
+    volumes:
+      - ./src/main/resources/data4dev:/docker-entrypoint-initdb.d/
 
   nginx:
     container_name: nginx

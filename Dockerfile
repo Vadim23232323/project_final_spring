@@ -5,10 +5,10 @@ FROM openjdk:17-jdk-slim
 WORKDIR /app
 
 # Копируем файл с собранным JAR в контейнер
-COPY target/*.jar /app/app.jar
+COPY target/*.jar /app/jira.jar
 
 # Указываем команду для запуска приложения
-ENTRYPOINT ["java", "-jar", "/app/app.jar"]
+ENTRYPOINT ["java", "-jar", "/app/jira.jar"]
 
 # Указываем порт, на котором будет доступно приложение
 EXPOSE 8080
